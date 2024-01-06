@@ -1,0 +1,64 @@
+body{
+	background-color:rgb(50,50,59);
+	color:white;
+	margin: 0;
+      padding: 0;
+}
+ul, li{
+	margin: 0;
+      padding: 0;
+}
+nav{
+	height:40px;
+	   background-color: rgb(29,29,38);
+      padding: 2px;
+}
+ul{
+	font-size: 12px;
+	font-family: monospace;
+	     list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+}
+li{
+	user-select: none;
+	 float: left;
+	 	 display: block;
+ color: white;
+      padding: 14px 16px;
+      text-decoration: none;
+}
+a{
+	color: white;
+	text-decoration: none;
+}
+li:hover{
+	background-color:rgb(112,70,236);
+}
+textarea{
+ width: 50%; 
+ height: 89vh;/* Make the textarea fill the width of its container */
+ border:1px solid black;
+ border-radius: 10px;
+      box-sizing: border-box; /* Include padding and border in the width */
+      margin-bottom: 10px;
+       resize: none;
+       margin:1%;
+  }
+  #preview_port{
+  	color:black;
+  	position: fixed;
+  	width: 45%;
+  	height: 89vh;/* Make the textarea fill the width of its container */
+ border:1px solid black;
+ border-radius: 10px;
+      box-sizing: border-box; /* Include padding and border in the width */
+      margin-bottom: 10px;
+      top:8%;
+      left:53%;
+      background-color: white;
+  }
+  #preview_port p{
+  	margin:2%;
+  }
